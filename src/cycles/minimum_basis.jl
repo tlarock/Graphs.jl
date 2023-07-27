@@ -1,17 +1,5 @@
 # Code in this file inspired by NetworkX.
 
-function generate_test()
-    G = Graph()
-    add_vertices!(G, 5)
-    add_edge!(G, 1, 2)
-    add_edge!(G, 2, 3)
-    add_edge!(G, 3, 1)
-    add_edge!(G, 3, 4)
-    add_edge!(G, 4, 5)
-    add_edge!(G, 5, 3)
-    return G
-end
-
 """Returns a minimum weight cycle basis for G
 
     Minimum weight means a cycle basis for which the total weight
